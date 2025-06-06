@@ -237,9 +237,6 @@ function sendChatMessage() {
     // 스크롤을 최하단으로 이동
     $('#chatMessages').scrollTop($('#chatMessages')[0].scrollHeight);
     
-    // 여기에 서버로 메시지 전송 로직을 추가할 수 있습니다.
-    
-    // 예시: 자동 응답 (실제 서비스에서는 서버 응답으로 대체)
     setTimeout(function() {
       $('#chatMessages').append(`
         <div class="chat-message system-message">
